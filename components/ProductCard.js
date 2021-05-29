@@ -15,7 +15,7 @@ function ProductCard({ _id, title, mainImage, slug, defaultProductVariant }) {
               .quality(80)}`,
           }}
         >
-          <button className="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+          <button className="p-2 rounded-full bg-blue-600 text-white5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
             <svg
               className="h-5 w-5"
               fill="none"
@@ -30,8 +30,8 @@ function ProductCard({ _id, title, mainImage, slug, defaultProductVariant }) {
           </button>
         </div>
         <div className="px-5 py-3">
-          <h3 className="text-gray-700 uppercase">{title}</h3>
-          <span className="text-gray-500 mt-2">
+          <h3 className="text-white uppercase">{title}</h3>
+          <span className="text-white mt-2">
             ${defaultProductVariant?.price}
           </span>
         </div>

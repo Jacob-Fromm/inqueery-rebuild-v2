@@ -6,10 +6,10 @@ function Cart({ cartOpen, handleOpen }) {
       } fixed right-0 top-0 max-w-xs w-full h-full px-6 py-4 transition duration-300 transform overflow-y-auto bg-white border-l-2 border-gray-300`}
     >
       <div className="flex items-center justify-between">
-        <h3 className="text-2xl font-medium text-gray-700">Your cart</h3>
+        <h3 className="text-2xl font-medium text-white">Your cart</h3>
         <button
           onClick={handleOpen}
-          className="text-gray-600 focus:outline-none"
+          className="text-white focus:outline-none"
         >
           <svg
             className="h-5 w-5"
@@ -34,9 +34,9 @@ function Cart({ cartOpen, handleOpen }) {
               alt=""
             />
             <div className="mx-3">
-              <h3 className="text-sm text-gray-600">Mac Book Pro</h3>
+              <h3 className="text-sm text-white">Mac Book Pro</h3>
               <div className="flex items-center mt-2">
-                <button className="text-gray-500 focus:outline-none focus:text-gray-600">
+                <button className="text-white focus:outline-none focus:text-white">
                   <svg
                     className="h-5 w-5"
                     fill="none"
@@ -49,8 +49,8 @@ function Cart({ cartOpen, handleOpen }) {
                     <path d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                 </button>
-                <span className="text-gray-700 mx-2">2</span>
-                <button className="text-gray-500 focus:outline-none focus:text-gray-600">
+                <span className="text-white mx-2">2</span>
+                <button className="text-white focus:outline-none focus:text-white">
                   <svg
                     className="h-5 w-5"
                     fill="none"
@@ -66,7 +66,7 @@ function Cart({ cartOpen, handleOpen }) {
               </div>
             </div>
           </div>
-          <span className="text-gray-600">20$</span>
+          <span className="text-white">20$</span>
         </div>
       ))}
 

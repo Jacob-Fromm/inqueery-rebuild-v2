@@ -10,7 +10,7 @@ function Hero(props) {
       <div className="container mx-auto px-6 mt-4">
         <div className="md:flex md:items-center">
           <div className="w-full max-w-lg mx-auto mt-5 md:ml-8 md:mt-0 md:w-1/2">
-            <h3 className="text-gray-700 uppercase text-lg">{heading}</h3>
+            <h3 className="text-white uppercase text-lg">{heading}</h3>
             {tagline && <PortableText blocks={tagline} />}
             {ctas && (
               <div>
