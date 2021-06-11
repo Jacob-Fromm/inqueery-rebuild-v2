@@ -1,11 +1,11 @@
 {
   "root": true,
   "api": {
-    "projectId": "yn4nug9v",
+    "projectId": "njbwrybk",
     "dataset": "production"
   },
   "project": {
-    "name": "The InQueery Meida",
+    "name": "The InQueery Media",
     "basePath": "/studio"
   },
   "plugins": [

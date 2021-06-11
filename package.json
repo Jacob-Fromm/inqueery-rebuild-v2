@@ -4,7 +4,7 @@
   "private": true,
   "description": "Sanity.io and Next.js Ecommerce Starter template",
   "scripts": {
-    "dev": "concurrently \"npm run dev\" \"cd studio && sanity start\"",
+    "dev": "concurrently \"next\" \"cd studio && sanity start\"",
     "build": "echo 'Building Sanity to public/studio…' && cd studio && sanity build ../public/studio -y && cd .. && next build",
     "start": "vercel dev",
     "postinstall": "lerna bootstrap",
@@ -26,11 +26,11 @@
     "@sanity/cli": "^2.0.9",
     "concurrently": "^5.3.0",
     "lerna": "^3.22.1",
-    "postcss-flexbugs-fixes": "4.2.1",
-    "postcss-preset-env": "^6.7.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^5.3.0",
     "prettier": "^2.1.2",
     "sanity-template": "^2.1.1",
-    "tailwindcss": "^1.9.6"
+    "tailwindcss": "^2.1.4"
   },
   "keywords": [],
   "author": "Sanity.io <hello@sanity.io>",
